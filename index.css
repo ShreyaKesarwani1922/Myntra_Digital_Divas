@@ -1,0 +1,1984 @@
+.get-free-shipping {
+    text-transform: capitalize;
+  }
+  .top-header-txt-container {
+    width: 100%;
+  }
+  .top-header,
+  .top-header1 {
+    display: flex;
+    max-width: 100%;
+  }
+  .top-header1 {
+    width: 985px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 600;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .top-header {
+    align-self: stretch;
+    background-color: #f56bc5;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 196px var(--padding-xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .myntra-logo-icon {
+    height: 39px;
+    width: 49px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .beauty,
+  .kids,
+  .men,
+  .studio,
+  .styles,
+  .women {
+    position: relative;
+    line-height: 100%;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .beauty,
+  .kids,
+  .men,
+  .studio,
+  .women {
+    min-width: 33px;
+  }
+  .beauty,
+  .kids,
+  .studio,
+  .women {
+    min-width: 58px;
+  }
+  .beauty,
+  .kids,
+  .studio {
+    min-width: 35px;
+  }
+  .beauty,
+  .studio {
+    min-width: 59px;
+  }
+  .studio {
+    min-width: 54px;
+  }
+  .nav-menu,
+  .navbar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .nav-menu {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .navbar-content {
+    width: 510px;
+    justify-content: center;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+    gap: 44px;
+  }
+  .icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+  }
+  .container,
+  .state-layer1 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .state-layer1 {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-5xs);
+  }
+  .container {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container,
+  .content,
+  .leading-icon {
+    display: flex;
+    align-items: center;
+  }
+  .leading-icon {
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-9xs);
+  }
+  .content {
+    width: calc(100% - 56px);
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 27px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1.5px 0;
+    box-sizing: border-box;
+    font-family: var(--font-roboto);
+    font-size: var(--font-size-base);
+    color: var(--schemes-on-surface-variant);
+    min-width: 250px;
+    max-width: 100%;
+  }
+  .icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+  }
+  .state-layer2 {
+    flex-direction: row;
+    padding: var(--padding-5xs);
+  }
+  .container1,
+  .st-trailing-icon,
+  .state-layer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container1 {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+  }
+  .st-trailing-icon {
+    flex-direction: column;
+    padding: var(--padding-9xs);
+  }
+  .icon2 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+  }
+  .state-layer3 {
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs);
+  }
+  .container2,
+  .nd-trailing-icon,
+  .state-layer3 {
+    align-items: center;
+    justify-content: center;
+  }
+  .container2 {
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 0 var(--padding-9xs);
+  }
+  .nd-trailing-icon {
+    height: 48px;
+    background-color: var(--schemes-on-surface-variant);
+    display: none;
+    flex-direction: column;
+  }
+  .search-bar,
+  .state-layer,
+  .trailing-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .search-bar,
+  .state-layer {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  .state-layer {
+    height: 35px;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+    gap: 4px;
+    max-width: 100%;
+  }
+  .search-bar {
+    border-radius: 28px;
+    background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+      rgba(127, 127, 127, 0.2);
+    overflow: hidden;
+    min-width: 360px;
+    max-width: 720px;
+  }
+  .person-icon {
+    height: 25px;
+    width: 25px;
+    position: relative;
+  }
+  .favorite-icon,
+  .shopping-bag-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .navbar,
+  .top-header-parent {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .navbar {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-base-5) 28px var(--padding-base-5) 50px;
+    gap: 37px;
+  }
+  .top-header-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 39px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .the-vibe-is {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .the-vibe-is-here-wrapper {
+    width: 1252.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .check-out-fashion {
+    position: relative;
+    line-height: 100%;
+  }
+  .check-out-fashion-inspo-from-t-wrapper {
+    width: 1253px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-2xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-base);
+  }
+  .header {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .marcos-paulo-prado-1qhefxpwkm-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .dwayne-joe-h1360qe0m1o-unsplas-icon,
+  .image-3-icon,
+  .image-4-icon {
+    position: absolute;
+    top: 0;
+    left: 1347px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .image-3-icon,
+  .image-4-icon {
+    left: 2694px;
+  }
+  .image-4-icon {
+    left: 4041px;
+  }
+  .carousel {
+    width: 1265px;
+    height: 482px;
+    position: relative;
+    overflow-x: auto;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .header-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 21px;
+    box-sizing: border-box;
+    gap: 64px;
+    max-width: 100%;
+    text-align: left;
+  }
+  .casual-chic {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .ellipse-div,
+  .indicator-shapes-child,
+  .indicator-shapes-inner,
+  .indicator-shapes-item {
+    margin-top: -2px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 0 solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .indicator-shapes-child {
+    background-color: #1e1e1e;
+  }
+  .ellipse-div,
+  .indicator-shapes-inner,
+  .indicator-shapes-item {
+    background-color: var(--color-gainsboro);
+  }
+  .carousel-pointers,
+  .indicator-shapes {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+  .indicator-shapes {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px 0 var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .carousel-pointers {
+    width: 223px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .carousel-pointers-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    font-size: var(--font-size-13xl);
+  }
+  .frame-parent {
+    width: 1265px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+    max-width: 100%;
+  }
+  .home-inner,
+  .trend-hub {
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    max-width: 100%;
+    align-self: stretch;
+    
+
+  }
+  .home-inner {
+    width: 1429px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: var(--font-inter);
+  }
+  .trend-hub {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    line-height: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .trend1-child {
+    width: 305px;
+    height: 523px;
+    position: relative;
+    background-color: var(--color-mediumvioletred);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+  }
+  .image-11-icon,
+  .image-12-icon,
+  .image-13-icon,
+  .image-14-icon {
+    align-self: stretch;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 432px;
+    flex-shrink: 0;
+  }
+  .image-11-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .image-12-icon,
+  .image-13-icon,
+  .image-14-icon {
+    width: 270px;
+  }
+  .trend-carousel-1,
+  .trend-carousels {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .trend-carousel-1 {
+    width: 270px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    gap: var(--gap-31xl);
+  }
+  .trend-carousels {
+    padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+  }
+  .oversized-t-shirts {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .trend1,
+  .trend2-child {
+    width: 305px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .trend1 {
+    margin: 0 !important;
+    position: absolute;
+    top: 143.5px;
+    left: 87.5px;
+    background-color: var(--color-mediumvioletred);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-2xs) var(--padding-11xl);
+    gap: var(--gap-xl);
+  }
+  .trend2-child {
+    height: 523px;
+    position: relative;
+    background-color: var(--color-dodgerblue);
+    display: none;
+  }
+  .image-20-icon,
+  .image-23-icon,
+  .image-29-icon,
+  .image-30-icon {
+    align-self: stretch;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 432px;
+    flex-shrink: 0;
+  }
+  .image-20-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .image-23-icon,
+  .image-29-icon,
+  .image-30-icon {
+    width: 270px;
+  }
+  .trend-carousel-2,
+  .trend-carousel-2-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .trend-carousel-2 {
+    width: 270px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    gap: 68px;
+  }
+  .trend-carousel-2-wrapper {
+    padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+  }
+  .baby-tees {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .trend2,
+  .trend3-child {
+    width: 305px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .trend2 {
+    margin: 0 !important;
+    position: absolute;
+    top: 143.5px;
+    left: 407.5px;
+    background-color: var(--color-dodgerblue);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-2xs) var(--padding-11xl);
+    gap: var(--gap-xl);
+  }
+  .trend3-child {
+    height: 523px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+  }
+  .barbie-core-1 {
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 432px;
+    flex-shrink: 0;
+    height: 100%;
+  }
+  .blazer-skirt-bright-green-1,
+  .dom-hill-nimeltctnyy-unsplash-icon,
+  .dondup-spring-2020-ready-to-we {
+    align-self: stretch;
+    width: 270px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 432px;
+    flex-shrink: 0;
+  }
+  .trend-carousel-3,
+  .trend-carousel-3-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .trend-carousel-3 {
+    width: 270px;
+    overflow: hidden;
+    flex-shrink: 0;
+    gap: var(--gap-31xl);
+  }
+  .trend-carousel-3-wrapper {
+    padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+  }
+  .monochromatic {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .trend3,
+  .trend4-child {
+    width: 305px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .trend3 {
+    margin: 0 !important;
+    position: absolute;
+    top: 143.5px;
+    left: 727.5px;
+    background-color: var(--color-gray-100);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-2xs) var(--padding-11xl);
+    gap: var(--gap-xl);
+  }
+  .trend4-child {
+    height: 523px;
+    position: relative;
+    background-color: var(--color-firebrick);
+    display: none;
+  }
+  .aiony-haust-ixyxqp4zejo-unspla-icon,
+  .grey-novena-woven-pants-1,
+  .icon3,
+  .icon4 {
+    align-self: stretch;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 432px;
+    flex-shrink: 0;
+  }
+  .aiony-haust-ixyxqp4zejo-unspla-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .grey-novena-woven-pants-1,
+  .icon3,
+  .icon4 {
+    width: 270px;
+  }
+  .trend-carousel-4,
+  .trend-carousel-4-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .trend-carousel-4 {
+    width: 270px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    gap: var(--gap-31xl);
+  }
+  .trend-carousel-4-wrapper {
+    padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+  }
+  .chic-you {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .trend4 {
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 143.5px;
+    left: 1047.5px;
+    background-color: var(--color-firebrick);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-2xs) var(--padding-11xl);
+    gap: var(--gap-xl);
+  }
+  .trend-section,
+  .trend-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .trend-section {
+    flex: 1;
+    background-color: var(--color-white);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 88.5px 0;
+    position: relative;
+    gap: var(--gap-mini);
+    min-height: 755px;
+  }
+  .trend-section-wrapper {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 128px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .y2k-revival {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 100%;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .y2k-revival-wrapper {
+    width: 1425px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .image-33-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .low-rise-jeans {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now {
+    margin: 0;
+    font-weight: 500;
+  }
+  .low-rise-jeans-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 87.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-34-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .baby-tees1 {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now1 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .baby-tees-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card1 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-43-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .shoes {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now2 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .shoes-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card2 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-44-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .heels {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now3 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .heels-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card3 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 1047.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-35-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .mini-skirts {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now4 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .mini-skirts-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card4 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-36-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .accessories {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now5 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .accessories-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card5 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .frame-group,
+  .y2k-revival1 {
+    align-self: stretch;
+    display: flex;
+  }
+  .y2k-revival1 {
+    height: 943px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: var(--gap-mini);
+    background-image: url(./public/y2k-revival@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+  }
+  .frame-group {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 110px;
+    box-sizing: border-box;
+    gap: 23px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 64px;
+    color: var(--color-black);
+    font-family: var(--font-just-me-again-down-here);
+  }
+  .categories-curated-just {
+    font-weight: 600;
+  }
+  .genz {
+    font-family: var(--font-dancing-script);
+  }
+  .span {
+    font-weight: 600;
+  }
+  .heading-txt {
+    width: 100%;
+  }
+  .cottage-core,
+  .heading {
+    font-size: inherit;
+    text-transform: capitalize;
+    font-family: inherit;
+  }
+  .heading {
+    margin: 0 !important;
+    width: 100%;
+    position: absolute;
+    top: 1727px;
+    left: 0;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .cottage-core {
+    margin: 0;
+    position: relative;
+    line-height: 100%;
+    font-weight: 400;
+  }
+  .cottage-core-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .image-38-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .floral-dresses {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now6 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .floral-dresses-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card6 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 87.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-40-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .corset-tops {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now7 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .corset-tops-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card7 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-39-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .skirts {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now8 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .skirts-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card8 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-45-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .footwear {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now9 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .footwear-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card9 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 1047.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-45-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .stockings {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now10 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .stockings-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card10 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-37-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .accessories1 {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now11 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .accessories-shop-now-container1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card11 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .cottage-core1 {
+    align-self: stretch;
+    height: 943px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: var(--gap-mini);
+    background-image: url(./public/cottage-core@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 108px;
+    gap: 40px;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-averia-serif-libre);
+  }
+  .the-korean-wave {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 100%;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .the-korean-wave-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .image-38-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .coord-sets {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now12 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .coord-sets-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card12 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 87.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-38-icon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .cargos {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now13 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .cargos-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card13 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-37-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .layered-tops {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now14 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .layered-tops-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card14 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-40-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .dress {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now15 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .dress-shop-now-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card15 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 15px;
+    left: 1047.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-39-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .cute-accessories {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now16 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .cute-accessories-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card16 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 407.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .image-39-icon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .tote-bags {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+  }
+  .shop-now17 {
+    margin: 0;
+    font-weight: 500;
+  }
+  .tote-bags-shop-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+  }
+  .card17 {
+    height: 449px;
+    width: 305px;
+    margin: 0 !important;
+    position: absolute;
+    top: 479px;
+    left: 727.5px;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-4xl);
+  }
+  .frame-section,
+  .korean-wave {
+    align-self: stretch;
+    display: flex;
+  }
+  .korean-wave {
+    height: 943px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: var(--gap-mini);
+    background-image: url(./public/korean-wave@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+  }
+  .frame-section {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 78px;
+    gap: 41px;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-carter-one);
+  }
+  .myntra-logo-icon1 {
+    width: 49px;
+    height: 39px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .linkedin-icon,
+  .logo-instagram-icon,
+  .logo-youtube-icon,
+  .x-logo-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .linkedin-icon,
+  .logo-instagram-icon,
+  .logo-youtube-icon {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .button-list {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--space-400);
+  }
+  .title {
+    width: 144px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-mini);
+  }
+  .blank-line,
+  .online-shopping {
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .beauty1,
+  .gift-cards,
+  .home-living,
+  .kids1,
+  .men1,
+  .myntra-insider,
+  .women1 {
+    margin: 0;
+  }
+  .online-shopping-men-container {
+    align-self: stretch;
+    height: 198px;
+    position: relative;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+  }
+  .list1 {
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .blank-line1,
+  .online-shopping1 {
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .beauty2,
+  .gift-cards1,
+  .home-living1,
+  .kids2,
+  .men2,
+  .myntra-insider1,
+  .women2 {
+    margin: 0;
+  }
+  .online-shopping-men-container1 {
+    align-self: stretch;
+    height: 198px;
+    position: relative;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+  }
+  .list2 {
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .blank-line2,
+  .online-shopping2 {
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .beauty3,
+  .gift-cards2,
+  .home-living2,
+  .kids3,
+  .men3,
+  .myntra-insider2,
+  .women3 {
+    margin: 0;
+  }
+  .online-shopping-men-container2 {
+    align-self: stretch;
+    height: 198px;
+    position: relative;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+  }
+  .list3 {
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer,
+  .home {
+    background-color: var(--color-white);
+    display: flex;
+    font-family: var(--font-inter);
+  }
+  .footer {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 282px;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-200);
+  }
+  .home {
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+  }
+  @media screen and (max-width: 1200px) {
+    .top-header {
+      padding-left: var(--padding-79xl);
+      padding-right: var(--padding-79xl);
+      box-sizing: border-box;
+    }
+    .frame-group {
+      padding-bottom: 71px;
+      box-sizing: border-box;
+    }
+    .frame-container,
+    .frame-section {
+      padding-bottom: 70px;
+      box-sizing: border-box;
+    }
+    .frame-section {
+      padding-bottom: 51px;
+    }
+    .footer {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .header,
+    .the-vibe-is {
+      font-size: var(--font-size-13xl);
+      line-height: 32px;
+    }
+    .casual-chic {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    .trend-hub {
+      font-size: var(--font-size-13xl);
+      line-height: 32px;
+      text-align: center;
+    }
+    .trend-section-wrapper {
+      padding-bottom: 83px;
+      box-sizing: border-box;
+    }
+    .y2k-revival {
+      font-size: 51px;
+      line-height: 51px;
+    }
+    .cottage-core,
+    .heading,
+    .the-korean-wave {
+      font-size: var(--font-size-13xl);
+      line-height: 32px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .top-header {
+      padding-left: var(--padding-30xl);
+      padding-right: var(--padding-30xl);
+      box-sizing: border-box;
+    }
+    .navbar-content {
+      gap: 22px;
+    }
+    .search-bar {
+      max-width: 100%;
+    }
+    .navbar {
+      gap: var(--gap-lg);
+      padding-left: 25px;
+      box-sizing: border-box;
+    }
+    .header-parent {
+      gap: 32px;
+    }
+    .frame-group {
+      padding-bottom: 46px;
+      box-sizing: border-box;
+    }
+    .frame-container,
+    .frame-section {
+      gap: var(--gap-xl);
+      padding-bottom: 45px;
+      box-sizing: border-box;
+    }
+    .frame-section {
+      padding-bottom: 33px;
+    }
+    .footer {
+      padding-left: var(--padding-122xl);
+      padding-right: var(--padding-122xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .top-header {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .header,
+    .the-vibe-is {
+      font-size: var(--font-size-5xl);
+      line-height: 24px;
+    }
+    .header-parent {
+      gap: var(--gap-base);
+    }
+    .casual-chic {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .trend-hub {
+      font-size: var(--font-size-5xl);
+      line-height: 24px;
+    }
+    .baby-tees,
+    .chic-you,
+    .monochromatic,
+    .oversized-t-shirts {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .trend-section-wrapper {
+      padding-bottom: 54px;
+      box-sizing: border-box;
+    }
+    .y2k-revival {
+      font-size: 38px;
+      line-height: 38px;
+    }
+    .accessories-shop-now-container,
+    .baby-tees-shop-container,
+    .heels-shop-now-container,
+    .low-rise-jeans-shop-container,
+    .mini-skirts-shop-now-container,
+    .shoes-shop-now-container {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .cottage-core,
+    .heading {
+      font-size: var(--font-size-5xl);
+      line-height: 24px;
+    }
+    .accessories-shop-now-container1,
+    .corset-tops-shop-container,
+    .floral-dresses-shop-container,
+    .footwear-shop-now-container,
+    .skirts-shop-now-container,
+    .stockings-shop-now-container {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .the-korean-wave {
+      font-size: var(--font-size-5xl);
+      line-height: 24px;
+    }
+    .cargos-shop-now-container,
+    .coord-sets-shop-container,
+    .cute-accessories-shop-container,
+    .dress-shop-now-container,
+    .layered-tops-shop-container,
+    .tote-bags-shop-container {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .footer {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  
