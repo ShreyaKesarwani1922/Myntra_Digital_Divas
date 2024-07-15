@@ -15,7 +15,7 @@ The primary objective of this redesign is to enhance user engagement and appeal 
 - Showcasing fashion pieces relevant to popular styles and trends such as Boho, Barbiecore, Korean Fashion, Monochromatic, Chic Office Wear, Party Wear, and more.
 - Creating a more intuitive and visually appealing shopping experience that aligns with the preferences of the younger audience.
 
-127.0.0.1_5500_index.html.png
+'127.0.0.1_5500_index.html.png'
 
 ## Features
 
